@@ -1,0 +1,4 @@
+numpy
+prtpy>=0.4.0
+tee_table
+matplotlib
