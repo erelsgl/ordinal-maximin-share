@@ -1,4 +1,4 @@
-# ordinal-maximin-share
+# Ordinal Maximin Share Approximation Algorithms
 
 This repository contains code to some of the experiments described in the following paper:
 
@@ -14,5 +14,4 @@ Files:
 * [make_results.py](make_results.py) - run the simulations and write CSV files.
 * [plot_results.py](plot_results.py) - read the CSV files and plot graphs.
 * [bincovering.py](bincovering.py) - implementation of algorithm based on bin-covering approximation.
-* 
 
