@@ -54,7 +54,7 @@ def make_results(random_valuation: Callable, results_csv_file:str, n:int=4):
 
         for L in L_values:
             D = int((L+1/2)*n)
-            greedy_partition_D = prtpy.partition(algorithm=prtpy.approx.greedy, numbins=D, items=valuation)
+            greedy_partition_D = prtpy.partition(algorithm=prtpy.partitioning.greedy, numbins=D, items=valuation)
             greedy_approximation        = smallest_sums(greedy_partition_D, num_of_sums=L)
             weak_greedy_approximation   = L*smallest_sums(greedy_partition_D, num_of_sums=1)
             try:
