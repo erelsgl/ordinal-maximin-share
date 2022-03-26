@@ -1,4 +1,4 @@
 numpy
-prtpy>=0.6.0
+prtpy==0.6.0
 tee_table
 matplotlib
